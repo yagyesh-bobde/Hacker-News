@@ -2,7 +2,7 @@
 An web application for news specific to hackers.
 
 ## Site Demonstration: 
-<video src='https://github.com/yagyesh-bobde/Hacker-News/blob/main/src/assets/videos/working.mp4' width=180/>
+<video src='https://github.com/yagyesh-bobde/Hacker-News/blob/main/src/assets/videos/working.mp4' width=180 ></video>
 
 ## Tech Stack Used: 
 HTML, CSS, Javascript, ReactJS, Bootstrap.
