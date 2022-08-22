@@ -8,14 +8,14 @@ import {
 const NavBar = () => {
  const [ mode, setMode ] = useState('dark');
 
- const onClick = () =>{
-    if (mode === 'light'){
-        setMode('dark')
-    }
-    else{
-        setMode('light')
-    }
- }
+//  const onClick = () =>{
+//     if (mode === 'light'){
+//         setMode('dark')
+//     }
+//     else{
+//         setMode('light')
+//     }
+//  }
 
   return (
       <nav className={`navbar navbar-expand-md navbar-${(mode === 'dark')? 'primary': mode} bg-${mode}`} style={{ position: 'fixed', zIndex: '7', width: '100%', top:'0'}}>

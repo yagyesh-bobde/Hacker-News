@@ -23,11 +23,11 @@ const NewsHome = () => {
             )
         })}
       <div style={{ marginTop: '5%', display: "flex", justifyContent: 'space-between' }}>
-          <button className='btn btn-primary' onClick={prevPage} disabled={news.page === 1} variant="outlined"><i class="fa-solid fa-angles-left"></i> Previous Page</button>
+          <button className='btn btn-primary' onClick={prevPage} disabled={news.page === 1} variant="outlined"><i className="fa-solid fa-angles-left"></i> Previous Page</button>
 
         <button className='btn btn-primary' variant="contained" disabled style={{ fontWeight: '800' }} >{news.page}<span >/{news.nbPages}</span></button>
 
-          <button className='btn btn-primary' onClick={nxtPage} disabled={news.currPage === news.nbPages} variant="outlined">Next Page <i class="fa-solid fa-angles-right"></i></button>
+          <button className='btn btn-primary' onClick={nxtPage} disabled={news.currPage === news.nbPages} variant="outlined">Next Page <i className="fa-solid fa-angles-right"></i></button>
       </div>
 
     </div>

@@ -11,7 +11,6 @@ const NewsState = (props) => {
     const getNews = async ( query='hacker' , tag='story', page=1) => {
         const response = await fetch(`http://hn.algolia.com/api/v1/search?query=${query}&tags=${tag}&page=${page}`)
         const json = await response.json()
-        console.log(json)
         setnews(json)
     }
 
@@ -19,7 +18,6 @@ const NewsState = (props) => {
     const getNewsItem = async ( id ) => {
         const response = await fetch(`http://hn.algolia.com/api/v1/items/${id}`)
         const json = await response.json()
-        console.log(json)
         setnewsItem(json)
     }
 

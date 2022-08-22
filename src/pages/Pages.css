@@ -24,3 +24,21 @@
     max-height: 100vh;
     overflow-y: auto;
 }
+
+.contact_us_parent {
+    margin: 5% auto;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    padding: 1%;
+}
+
+.contact_us_parent textarea {
+    width: 75%;
+    height: 50px;
+}
+.contact_us_parent input {
+
+}

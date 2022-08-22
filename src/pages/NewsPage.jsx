@@ -7,13 +7,13 @@ import { NewsContext } from '../context/newsState'
 const News = () => {
   const navigate = useNavigate();
   const { newsItem } = useContext(NewsContext)
-  const [alert, setalert] = useState(true)
-
+  const [alert, setalert] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
       setalert(false)
     }, 3000);
+
   }, [])
 
 
@@ -28,8 +28,9 @@ const News = () => {
         <h4>{newsItem.title}</h4>
       </header>
       <main>
-        <div className="row">
-          <span style={{ float: 'right'}}>{newsItem.author}</span>
+        <div className="d-flex" style={{ justifyContent: 'end'}}>
+            <span className='' style={{ fontWeight: '800' }}>~<b>{newsItem.author}</b> </span>
+
         </div>
         {newsItem.children?.map(item => {
           return (
