@@ -3,7 +3,10 @@
     padding: 0;
 }
 body { 
-    background-color: grey;
+    /* background-color: #212529; */
+    background-image: linear-gradient(to right, rgba(50,50,50,0.75),rgba(50,50,50,0.75)),url('./assets/images/bg-1.jpg');
+    background-position: cover;
+    
 }
 .place-center {
     display: flex;
@@ -15,4 +18,9 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+.news_div{
+    margin: 10px;
+    padding: 1%;
 }

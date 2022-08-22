@@ -5,7 +5,7 @@ import {
     Routes, 
     Route
 } from 'react-router-dom'
-import Footer from './components/Footer'
+import Footer from './components/Footer/Footer'
 import './App.css'
 import NewsState from './context/newsState'
 

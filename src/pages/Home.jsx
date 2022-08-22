@@ -1,9 +1,9 @@
 import React, { useContext, useEffect } from 'react'
-import Filter from '../components/Filter'
+import Filter from '../components/Filter/Filter'
 import { NewsContext } from '../context/newsState'
 import Loading from '../components/Loading'
 import NewsHome from '../components/NewsHome'
-import './Home.css'
+import './Pages.css'
 
 
 const Home = () => {
@@ -24,7 +24,8 @@ const Home = () => {
       </header>
       <main>
         {/* Loading if news is empty else show the news */}
-        { (Object.keys(news).length === 0) ? <Loading /> : <NewsHome />}
+        { (Object.keys(news).length === 0) &&  <Loading /> }
+        {(Object.keys(news).length !== 0) && <NewsHome />}
       </main>
       <footer>
         {/* ADD PAGEs  , NEXT & PREVIOS PAge section */}

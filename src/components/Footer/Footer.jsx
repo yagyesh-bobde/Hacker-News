@@ -6,7 +6,7 @@ const Footer = () => {
   const location = useLocation();
 
   return (
-      <div className={`footer ${(location.pathname === '/') ? '' : 'bottom_position'}`}>
+    <div className={`footer ${(location.pathname === '/contact') ? 'bottom_position' : ''}`}>
         <div className='footer_header'>
               This project is a frontend assignmnet for Hybr1d & The project repository can be found <span><a target='_blank' href='https://github.com/yagyesh-bobde/Hacker-News' >here</a>.</span> 
         </div>

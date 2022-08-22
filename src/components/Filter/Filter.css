@@ -1,0 +1,15 @@
+.filter_form {
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 0 5px 3px grey;
+    padding:1%;
+}
+
+.filter_form select, input {
+    margin: 5px; 
+}
+.filter_form input {
+    width: min-content;
+}

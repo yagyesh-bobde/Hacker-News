@@ -1,0 +1,26 @@
+.news_home {
+    padding: 2.5%;
+    width: 1050px;
+    min-height: 75vh;
+    max-width: 100%;
+    margin: 5% auto;
+    background-color: white;
+    max-height: 200vh;
+    overflow-y: auto;
+}
+
+.home_header{
+    text-align: center;
+}
+
+/* NEWS ITEM PAGE */
+.news_item_page {
+    width: 75%;
+    max-width: 100%;
+    padding: 3%;
+    background-color: #f9e2e2;
+    margin:5% auto;
+    min-height: 75vh;
+    max-height: 100vh;
+    overflow-y: auto;
+}
