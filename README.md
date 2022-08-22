@@ -2,7 +2,7 @@
 An web application for news specific to hackers.
 
 ## Site Demonstration: 
-
+<video src='https://github.com/yagyesh-bobde/Hacker-News/blob/main/src/assets/videos/working.mp4' />  
 ## Tech Stack Used: 
 HTML, CSS, Javascript, ReactJS, Bootstrap.
 
@@ -19,10 +19,10 @@ after all the libraries are installed run this command in the project folder, to
 
 ## Working: Gallery: 
 1. Home Page: 
-<img src='' alt='home page'>
+<img src='https://github.com/yagyesh-bobde/Hacker-News/blob/main/src/assets/images/home.png' alt='home page'>
 
 2. The pagination at the end of news:
-<img src='' alt='page_function'>
+<img src='https://github.com/yagyesh-bobde/Hacker-News/blob/main/src/assets/images/page.png' alt='page_function'>
 
 3. Contact us page: 
-<img src='' alt='contact_us page'>
+<img src='https://github.com/yagyesh-bobde/Hacker-News/blob/main/src/assets/images/contact_us.png' alt='contact_us page'>
