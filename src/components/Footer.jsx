@@ -1,12 +1,15 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
+  const location = useLocation();
+
   return (
-      <div className="footer">
-        <header class='footer_header'>
+      <div className={`footer ${(location.pathname === '/') ? '' : 'bottom_position'}`}>
+        <div className='footer_header'>
               This project is a frontend assignmnet for Hybr1d & The project repository can be found <span><a target='_blank' href='https://github.com/yagyesh-bobde/Hacker-News' >here</a>.</span> 
-        </header>
+        </div>
         <div className="place-center">
               <a className='space place-center' href='https://www.linkedin.com/in/bobde-yagyesh/' rel="noreferrer" target={'_blank'}>
                   <i className="fa-brands fa-linkedin-in"></i>
