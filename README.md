@@ -1,11 +1,13 @@
 # HackerNews Web App
 An web application for news specific to hackers.
 
-## Site Demonstration: 
-https://github.com/yagyesh-bobde/Hacker-News/blob/main/src/assets/videos/working.mp4?width=200&height=200
-
 ## Tech Stack Used: 
 HTML, CSS, Javascript, ReactJS, Bootstrap.
+
+## Site demonstration:
+
+https://user-images.githubusercontent.com/90238742/186009705-8cf27875-0037-461f-b8fd-cdda11634912.mp4
+
 
 ## How to run the project? 
 Clone it locally and in the project, install all the libraries present in the package.json file required to run the app, in this case only the react-router-dom:
