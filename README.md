@@ -6,7 +6,7 @@ HTML, CSS, Javascript, ReactJS, Bootstrap.
 
 ## Site demonstration:
 
-https://user-images.githubusercontent.com/90238742/186009705-8cf27875-0037-461f-b8fd-cdda11634912.mp4
+https://user-images.githubusercontent.com/90238742/186009705-8cf27875-0037-461f-b8fd-cdda11634912.mp4?width=200&height=200
 
 
 ## How to run the project? 
